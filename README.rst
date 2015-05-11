@@ -5,7 +5,7 @@ rpath -- a small tool to manipulate the shell's PATH
 ``rpath`` is a small tool to view and manipulate the shell's ``PATH`` than the
 standard view.
 
-Listing the ``PATH``::
+Listing the ``PATH``:
 
 .. code-block:: bash
 
@@ -21,7 +21,7 @@ Listing the ``PATH``::
     8: /usr/games
     9: /usr/local/games
 
-Removing an element from the ``PATH``::
+Removing an element from the ``PATH``:
 
 .. code-block:: bash
 
