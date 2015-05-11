@@ -25,7 +25,7 @@ Removing an element from the ``PATH``:
 
 .. code-block:: bash
 
-    $ export PATH=`rpath rm 9`
+    $ export PATH=`rpath rm 8`
     $ rpath list
     0: /home/ben/go/bin
     1: /usr/local/haskell/ghc-7.8.3-x86_64/bin
