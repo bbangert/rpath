@@ -5,6 +5,10 @@ rpath -- a small tool to manipulate the shell's PATH
 ``rpath`` is a small tool to view and manipulate the shell's ``PATH`` than the
 standard view.
 
+Running
+=======
+
+
 Listing the ``PATH``:
 
 .. code-block:: bash
@@ -36,3 +40,14 @@ Removing an element from the ``PATH``:
     6: /sbin
     7: /bin
     8: /usr/local/games
+
+Building
+========
+
+Rust 1.0 and cargo should be installed, then checkout this project and:
+
+.. code-block:: bash
+
+    $ cargo build --release
+
+The ``rpath`` binary will then be under the ``target/release`` directory.
