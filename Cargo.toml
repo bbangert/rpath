@@ -1,0 +1,8 @@
+[package]
+name = "rpath"
+version = "0.1.0"
+authors = ["Ben Bangert <ben@groovie.org>"]
+
+[dependencies]
+docopt = "*"
+rustc-serialize = "*"
