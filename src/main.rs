@@ -44,11 +44,14 @@ fn main() {
     match args {
         Args { arg_location: Some(loc), .. } if loc >= parts.len() =>
             println!("Error: location is not valid. For a list of locations, run: rpath list"),
+
         Args { cmd_list: true, .. } => print_path(&path),
+
         Args { cmd_remove: true, arg_location: Some(loc), .. } => {
             parts.remove(loc);
             print!("{}", parts.connect(":"))
         },
+
         // Note that this handles both insert/replace
         Args { cmd_replace: is_replace, arg_location: Some(loc), arg_path: Some(ref ipath), .. } => {
             if is_replace {
@@ -57,6 +60,7 @@ fn main() {
             parts.insert(loc, ipath);
             print!("{}", parts.connect(":"))
         },
+
         _ => println!("Must have forgotten an option..."),
     }
 }
