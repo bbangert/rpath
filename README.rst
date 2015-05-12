@@ -8,7 +8,6 @@ standard view.
 Running
 =======
 
-
 Listing the ``PATH``:
 
 .. code-block:: bash
