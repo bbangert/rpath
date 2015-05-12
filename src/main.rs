@@ -30,9 +30,9 @@ struct Args {
 }
 
 fn print_path(path: &str) {
-    println!("Location: Path");
+    println!("Location:  Path");
     for (i, part) in path.split(":").enumerate() {
-        println!("{}: {}", i, part)
+        println!("{:>8}:  {}", i, part)
     }
 }
 
