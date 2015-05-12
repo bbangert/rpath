@@ -1,9 +1,8 @@
-====================================================
-rpath -- a small tool to manipulate the shell's PATH
-====================================================
+=====
+rpath
+=====
 
-``rpath`` is a small tool to view and manipulate the shell's ``PATH`` than the
-standard view.
+A small tool to easily view and manipulate the shell's ``PATH``.
 
 Running
 =======
